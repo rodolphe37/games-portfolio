@@ -1,0 +1,34 @@
+
+#ballon {
+  top: -15%;
+}
+
+.bottom-link {
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.bottom-link >img {
+  margin-left: 10px;
+}
+
+.bottom-link >a {
+  margin-left: 5px;
+}
+
+#ferret {
+  width: 111%;
+  margin-left: 1055%;
+  margin-top: 452%;
+}
+
+.eyes {
+  margin-left: 1074%;
+    display: flex;
+    top: 258px;
+    width: 14%;
+}
+

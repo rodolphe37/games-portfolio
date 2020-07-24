@@ -1,0 +1,64 @@
+.return-match3 {
+  background-color: #38006b;
+  border-radius: 4px;
+  /* color: #FFF; */
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  min-height: 50px;
+  vertical-align: middle;
+  width: 27%;
+  margin: 10px;
+  margin-top: -54px;
+  position: absolute;
+  margin-left: -36vw;
+  border: 1px solid white;
+  box-shadow: 1px 1px 9px white;
+  z-index: 450;
+}
+
+.return-match3:hover {
+  background-color: #F9F9F9;
+}
+
+.return-match3:hover > a {
+  color: #38006b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button.return-match3 > a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.vibrate-1:hover {
+	animation: vibrate-1 0.3s linear both;
+}
+
+/**
+ * ----------------------------------------
+ * animation vibrate-1
+ * ----------------------------------------
+ */
+ @keyframes vibrate-1 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}

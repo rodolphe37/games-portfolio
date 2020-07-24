@@ -1,0 +1,39 @@
+#linkgame >img {
+
+  width: 120%;
+  height: 89%;
+}
+
+#linkgame {
+  width: 100%;
+}
+
+.remake-link {
+  width: 486%;
+}
+
+.tetris-link {
+  width: 498%;
+}
+
+
+.memory-link {
+  width: 491%;
+}
+
+.match3-link {
+  width: 517%;
+}
+
+.asanas-link {
+  width: 491%;
+  -moz-appearance: none;
+}
+
+
+
+@media screen and (-moz-images-in-menus:0) {
+  .asanas-link {
+    display: none;
+  }
+}

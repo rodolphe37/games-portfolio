@@ -1,0 +1,61 @@
+{
+  "name": "all-games-site",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@rooks/use-window-size": "^3.6.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "lodash-es": "^4.17.15",
+    "lodash-move": "^1.1.1",
+    "node-sass": "^4.13.1",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-cookie": "^4.0.3",
+    "react-dnd": "^10.0.2",
+    "react-dnd-html5-backend": "^10.0.2",
+    "react-dom": "^16.13.1",
+    "react-iframe": "^1.8.0",
+    "react-modal": "^3.11.2",
+    "react-motion": "^0.5.2",
+    "react-particle-image": "^1.0.1",
+    "react-player": "^2.3.1",
+    "react-responsive-modal": "^5.0.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-spring": "^8.0.27",
+    "react-toastify": "^6.0.5",
+    "react-use-gesture": "^7.0.5",
+    "scroll-lock": "^2.1.2",
+    "spectre.css": "^0.5.8",
+    "styled-components": "^5.0.1",
+    "typescript": "^3.9.3"
+  },
+  "scripts": {
+    "start-dev": "react-scripts start",
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

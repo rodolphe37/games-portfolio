@@ -1,0 +1,80 @@
+.button {
+  border: none;
+  font-size: 14px;
+  font-family: helvetica;
+  color: white;
+  padding-top: 0px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+}
+
+button:focus {
+  outline:0;
+  color:red
+}
+
+.container {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.parentflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.separator {
+  color: gray;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+.easy {
+  color: #f5f2f2;
+  font-weight: bold;
+  border: none;
+  font-size: 12px;
+  font-family: helvetica;
+  padding-top: 0px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+}
+
+.difficult {
+  color: #f5f2f2;
+  font-weight: bold;
+  border: none;
+  font-size: 12px;
+  font-family: helvetica;
+  padding-top: 0px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+}
+
+.resetbutton {
+  border: none;
+  font-size: 12px;
+  font-family: helvetica;
+  color: #f5f2f2;
+  padding-top: 0px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+}
+
+.resetbutton:hover {
+  color: yellow;
+  font-weight: bold;
+}
+
+.difficult, .easy, .resetbutton {
+  border: none;
+  font-size: 12px;
+  font-family: helvetica;
+  padding: 0 15px;
+}
