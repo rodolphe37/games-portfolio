@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import { CookiesProvider } from 'react-cookie';
@@ -10,7 +10,9 @@ import registerServiceWorker from './registerServiceWorker';
 ReactDOM.render(
   <CookiesProvider>
     <Router>
-      <App />
+      <Suspense fallback="loading">
+        <App />
+      </Suspense>
     </Router>
   </CookiesProvider>,
   document.getElementById("root")
