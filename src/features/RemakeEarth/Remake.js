@@ -91,7 +91,7 @@ function Remake(incrementScore) {
                     console.log("Très bien, c'est bon !!!")
                   : console.log("c'est pas bon!!!")}
                 {isTotalMatch === 0
-                  ? () => alert("Vous avec Gagné!!") && window.location.reload()
+                  ? () => <p>Vous avez Gagné !!</p> && window.location.reload()
                   : null}
               </GridItem>
             </DragItem>
