@@ -90,7 +90,7 @@ function Remake(incrementScore) {
                   ? decrementTotalMatch() &&
                     console.log("Très bien, c'est bon !!!")
                   : console.log("c'est pas bon!!!")}
-                {isTotalMatch === 0 ? () => <p>Vous avez Gagné !!</p> : null}
+                {isTotalMatch === 0 ? () => alert("Vous avez Gagné !!") : null}
               </GridItem>
             </DragItem>
           ))}
