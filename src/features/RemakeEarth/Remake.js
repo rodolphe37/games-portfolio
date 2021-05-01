@@ -9,7 +9,7 @@ import "./components/Modal.css";
 import ExplodingModal from "./components/ExplodingModal/ExplodingModal";
 
 const reloadGame = () => {
-  window.location.reload(false);
+  window.location.replace("/");
 };
 
 const filterInt = function (value) {
@@ -47,6 +47,9 @@ function Remake(incrementScore) {
   useEffect(() => {
     document.title = `Vous avez fait ${count} ${depl()}`;
   });
+  const WinGame = () => {
+    return <p>Vou avez gagné, Bravo !!</p>;
+  };
 
   return (
     <div className="App-remake">
@@ -90,7 +93,7 @@ function Remake(incrementScore) {
                   ? decrementTotalMatch() &&
                     console.log("Très bien, c'est bon !!!")
                   : console.log("c'est pas bon!!!")}
-                {isTotalMatch === 0 ? alert("Vous avez Gagné !!") : null}
+                {isTotalMatch === 0 ? <WinGame /> : null}
               </GridItem>
             </DragItem>
           ))}
