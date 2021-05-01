@@ -1,11 +1,19 @@
-import React from 'react';
-import './returnButton.css'
+import React from "react";
+import "./returnButton.css";
 
 const ReturnButton = () => {
-  const { URL_GAME } = process.env
+  const { URL_GAME } = process.env;
   return (
-    <button className="return-match3 vibrate-1"><a  href={`${URL_GAME}`} onClick={() => URL_GAME} alt="">Retour à L'acceuil des jeux</a></button>
-  )
-}
+    <button className="return-match3 vibrate-1">
+      <a
+        href={`https://amano-hilot-games.netlify.app/${URL_GAME}`}
+        onClick={() => URL_GAME}
+        alt=""
+      >
+        Retour à L'acceuil des jeux
+      </a>
+    </button>
+  );
+};
 
 export default ReturnButton;
