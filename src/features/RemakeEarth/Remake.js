@@ -48,7 +48,7 @@ function Remake(incrementScore) {
     document.title = `Vous avez fait ${count} ${depl()}`;
   });
   const WinGame = () => {
-    return <p>Vou avez gagné, Bravo !!</p>;
+    return <p style={{ color: "white" }}>Vou avez gagné, Bravo !!</p>;
   };
 
   return (
