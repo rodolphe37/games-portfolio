@@ -61,7 +61,7 @@ export default (props) => {
           Mes livres sur
           <a
             href="https://www.thebookedition.com/fr/35750_rodolphe-augusto"
-            title="Mon Livre 42 Postures de Yoga et étirements"
+            title="L'ensemble des mes livres"
             target="_blank"
             rel="noopener noreferrer"
           >
