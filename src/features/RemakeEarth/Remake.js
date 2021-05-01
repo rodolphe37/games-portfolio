@@ -9,7 +9,7 @@ import "./components/Modal.css";
 import ExplodingModal from "./components/ExplodingModal/ExplodingModal";
 
 const reloadGame = () => {
-  window.location.replace("/");
+  window.location.reload(false);
 };
 
 const filterInt = function (value) {
@@ -48,7 +48,7 @@ function Remake(incrementScore) {
     document.title = `Vous avez fait ${count} ${depl()}`;
   });
   const WinGame = () => {
-    return <p style={{ color: "white" }}>Vou avez gagné, Bravo !!</p>;
+    return <p>Vou avez gagné, Bravo !!</p>;
   };
 
   return (
@@ -93,11 +93,11 @@ function Remake(incrementScore) {
                   ? decrementTotalMatch() &&
                     console.log("Très bien, c'est bon !!!")
                   : console.log("c'est pas bon!!!")}
-                {isTotalMatch === 0 ? <WinGame /> : null}
               </GridItem>
             </DragItem>
           ))}
         </Grid>
+        {isTotalMatch === 0 ? <WinGame /> : null}
       </div>
     </div>
   );
