@@ -9,7 +9,7 @@ const HeaderRemake = () => {
       <p>By Rodolphe Augusto</p>
       <div className="return-game">
         <button className="return-remake shake-horizontal">
-          <a href={`${API_GAME}`} onClick={() => API_GAME} alt="">
+          <a href="/" onClick={() => API_GAME} alt="">
             Retour à L'acceuil des jeux
           </a>
         </button>
