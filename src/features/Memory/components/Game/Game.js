@@ -24,11 +24,7 @@ class Game extends React.Component {
             <p id="paragraphe">By Rodolphe Augusto</p>
             <div className="return-game">
               <Button className="return-memory heartbeat">
-                <a
-                  href={`https://amano-hilot-games.netlify.app/${URL_GAME}`}
-                  onClick={this.href}
-                  alt=""
-                >
+                <a href="/" onClick={this.href} alt="">
                   <p className="return-text-memory">
                     Retour à L'acceuil des jeux
                   </p>
