@@ -71,7 +71,7 @@ export default (props) => {
         <span
           className="asanas-link"
           data-tooltip="!! ASANAS GUESSING GAME !! &#xa; &#xa; Devinez le nom de l'Asana de Yoga! Vous avez une illustration... et quatre choix de nom !!! Quand la réponse est bonne le fond du panel de jeu devient vert, sinon, il devient rouge !&#xa; &#xa; vous avez 600 secondes (10 minutes) à chaque partie, Apprennez en vous amusant !&emsp;!! PS: CE JEU ETANT ENCORE EN PHASE DE TEST, IL N'EST PAS ENCORE COMPATIBLE AVEC FIREFOX !!"
-          data-tooltip-location="top"
+          data-tooltip-location="left"
         >
           <Game
             click={() => selectGame("AsanasGuessing")}
