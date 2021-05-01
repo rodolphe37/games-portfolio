@@ -5,7 +5,7 @@ import { Button } from "../../../../common/styles";
 
 class Game extends React.Component {
   render() {
-    const { URL_GAME } = process.env;
+    // const { URL_GAME } = process.env;
     return (
       <div className="containerOuter">
         <div className="containerInner">
